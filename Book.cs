@@ -44,7 +44,9 @@ namespace Laba_6
                 $" then MAX_COUNT_PAGE({MAX_COUNT_PAGE})");
             }
         }
-
+        /// <summary>
+        /// changes field _isOpen on false
+        /// </summary>
         public void CloseBook()
         {
             if (IsOpen)
@@ -52,7 +54,9 @@ namespace Laba_6
                 IsOpen = false;
             }
         }
-
+        /// <summary>
+        /// changes field _isOpen on true
+        /// </summary>
         public void OpenBook()
         {
             if (!IsOpen)
