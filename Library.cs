@@ -40,16 +40,16 @@ namespace Laba_6
         {
             if (indexRemove < _elements.Length)
             {
-                Book[] newEstablishments = new Book[_elements.Length - 1];
+                Book[] newElements = new Book[_elements.Length - 1];
                 for (int i = 0, j = 0; i < _elements.Length; i++)
                 {
                     if (i != indexRemove)
                     {
-                        newEstablishments[j] = _elements[i];
+                        newElements[j] = _elements[i];
                         j++;
                     }
                 }
-                _elements = newEstablishments;
+                _elements = newElements;
             }
             else
             {
